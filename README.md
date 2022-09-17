@@ -32,15 +32,13 @@ Have NodeJS installed and follow the next steps
 ### Deployment
 - `npm run deploy`
 
-
-## Authors
+## Author
 
 👤 **Habeeb Musa Efiamotu**
 
-- GitHub: [@githubhandle](https://github.com/Efiamotu-1)
-- Twitter: [@twitterhandle](https://twitter.com/EFYAMOTU)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/musa-habeeb/)
-
+- GitHub: [@Efiamotu](https://github.com/Efiamotu-1)
+- Twitter: [@EFYAMOTU](https://twitter.com/EFYAMOTU)
+- LinkedIn: [musa-habeeb](https://www.linkedin.com/in/musa-habeeb/)
 
 ## 🤝 Contributing
 

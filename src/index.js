@@ -1,16 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 // component file
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import TodoContainer from './components/TodoContainer';
 // stylesheet
 import './App.css';
 
-ReactDOM.render(
+const root = createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <Router>
       <TodoContainer />
     </Router>
   </React.StrictMode>,
-  document.getElementById('root'),
 );

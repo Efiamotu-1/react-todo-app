@@ -22,7 +22,7 @@ const TodoList = (props) => {
 }; export default TodoList;
 TodoList.propTypes = {
   todos: PropTypes.arrayOf(
-    PropTypes.objectOf(PropTypes.string, PropTypes.string, PropTypes.bool),
+    PropTypes.shape({ id: PropTypes.string, title: PropTypes.string, completed: PropTypes.bool }),
   ).isRequired,
   handleChangeProps: PropTypes.func.isRequired,
   deleteTodoProps: PropTypes.func.isRequired,

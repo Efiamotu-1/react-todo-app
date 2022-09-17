@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { MdClose } from 'react-icons/md';
+import { FiMenu } from 'react-icons/fi';
 
 const Navbar = () => {
+  const [navbarOpen, setNavbarOpen] = useState(false);
   const links = [
     {
       id: 1,
@@ -14,16 +17,30 @@ const Navbar = () => {
       text: 'About',
     },
   ];
+  const closeMenu = () => {
+    setNavbarOpen(false);
+  };
+  const handleToggle = () => {
+    setNavbarOpen((prev) => !prev);
+  };
 
   return (
     <nav className="navBar">
-      <ul>
+      <button onClick={handleToggle} type="button">
+        {navbarOpen ? (
+          <MdClose style={{ color: '#fff', width: '40px', height: '40px' }} />
+        ) : (
+          <FiMenu style={{ color: '#7b7b7b', width: '40px', height: '40px' }} />
+        )}
+      </button>
+      {' '}
+      <ul className={`menuNav ${navbarOpen ? ' showMenu' : ''}`}>
         {links.map((link) => (
           <li key={link.id}>
             <NavLink
-              exact
               to={link.path}
-              className={({ active }) => (active ? 'active-link' : '')}
+              // activeClassName="active-link"
+              onClick={() => closeMenu()}
             >
               {link.text}
             </NavLink>

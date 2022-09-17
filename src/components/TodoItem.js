@@ -69,7 +69,9 @@ const TodoItem = (props) => {
 
 export default TodoItem;
 TodoItem.propTypes = {
-  todo: PropTypes.objectOf(PropTypes.string, PropTypes.string, PropTypes.bool).isRequired,
+  todo: PropTypes.exact(
+    { id: PropTypes.string, title: PropTypes.string, completed: PropTypes.bool },
+  ).isRequired,
   handleChangeProps: PropTypes.func.isRequired,
   deleteTodoProps: PropTypes.func.isRequired,
   setUpdate: PropTypes.func.isRequired,
