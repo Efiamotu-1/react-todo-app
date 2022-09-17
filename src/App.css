@@ -6,7 +6,7 @@
 
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  line-height: 1.4;
+  line-height: 1.5;
   color: #444;
   background: #fff;
   height: 100vh;
@@ -76,7 +76,6 @@ body {
   text-decoration: underline;
 }
 
-
 .navBar {
   position: relative;
 }
@@ -122,6 +121,7 @@ a {
 .menuNav li:first-child {
   margin-top: 7rem;
 }
+
 .about__content {
   padding: 8rem 40px;
   display: flex;
