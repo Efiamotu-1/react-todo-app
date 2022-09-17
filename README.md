@@ -12,7 +12,7 @@
 
 ## Live Demo 
 
-in progess :smile: but try [this](https://Efiamotu-1.github.io/react-todo-app)
+[Live demo](https://Efiamotu-1.github.io/react-todo-app)
 
 
 ## Getting Started
