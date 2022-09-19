@@ -1,56 +1,44 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# React-Todo-App
 
-> Description the project.
+> A React based Todo-App based on the ReactJS [tutorial](https://ibaslogic.com/react-tutorial-for-beginners/)
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, JavaScript
+- React JS
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Live demo](https://Efiamotu-1.github.io/react-todo-app)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
 ### Install
-
+Have NodeJS installed and follow the next steps
 ### Usage
-
+- `npm i` for installing dev dependecies
+- `npm run build` or `npm start` to see the project
 ### Run tests
-
+- `npm test`
 ### Deployment
+- `npm run deploy`
 
+## Author
 
+👤 **Habeeb Musa Efiamotu**
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Efiamotu](https://github.com/Efiamotu-1)
+- Twitter: [@EFYAMOTU](https://twitter.com/EFYAMOTU)
+- LinkedIn: [musa-habeeb](https://www.linkedin.com/in/musa-habeeb/)
 
 ## 🤝 Contributing
 
@@ -70,6 +58,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
